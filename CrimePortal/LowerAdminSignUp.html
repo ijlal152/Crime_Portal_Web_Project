@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lower admin signup</title>
+    <link rel="stylesheet" href="LowerAdminSignUp.css">
+    <script src="uploadimage.js"></script>
+  </head>
+  <body>
+    <h2>Here you can create your account to operate this system</h2>
+    <div class="maincontentdiv">
+      <div class="firstdiv">
+        <h3>Personal Information</h3>
+        <hr>
+        <label for="">Name</label>
+        <input type="text" name="" value="" placeholder="Your Full name">
+        <br/>
+        <label for="">CNIC</label>
+        <input type="text" name="" value="" placeholder="Your CNIC">
+
+        <p>Slect you gender</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+        <br/>
+        <br/>
+
+        <label for="">Email</label>
+        <input type="email" name="" value="" placeholder="Your email">
+        <br/>
+
+        <label for="">Phone</label>
+        <input type="text" name="" value="" placeholder="Your Phone no">
+        <br/>
+
+      </div>
+      <div class="seconddiv">
+        <h3>Department Information</h3>
+        <hr>
+        <label for="">Area</label>
+        <select name="a_area" style="width: 70%; padding: 10px; margin: 5px 0 20px 0; display: inline-block; border: none; background: white;" id="area" name="designation">
+              <option value="Fateh Jang">Fateh Jang</option>
+              <option value="Rawalpindi">Rawalpindi</option>
+              <option value="Multan">Multan</option>
+              <option value="Karachi">Karachi</option>
+        </select>
+        <label for="">Designation</label>
+        <select name="a_designation" style="width: 59%; padding: 10px; margin: 5px 0 20px 0; display: inline-block; border: none; background: white;" id="designation" name="designation">
+              <option value="IT_Expert">IT Expert</option>
+              <option value="Junior_Constable">Junior Constable</option>
+        </select>
+        <label for="">Dept code</label>
+        <input type="text" name="" value="" placeholder="Duty Code">
+
+        <label for="">Senior</label>
+        <input type="text" name="" value="" placeholder="Your senior name">
+
+        <br/>
+        <label for="">Duty shift</label>
+        <select name="a_dutyshift" style="width: 56%; padding: 10px; margin: 5px 0 20px 0; display: inline-block; border: none; background: white;" id="dutyshift" name="designation">
+              <option value="morning">7 AM - 1 PM</option>
+              <option value="evening">2 PM - 9 PM</option>
+              <option value="night">10 PM - 6 AM</option>
+        </select>
+
+        <label for="">Joining Date</label>
+        <input type="date" id="date" name="joiningdate" style="width: 52%; padding: 10px; margin: 5px 0 20px 0;">
+
+      </div>
+      <div class="thirddiv">
+        <h3>Account Information</h3>
+        <hr>
+        <label for="">Username</label>
+        <input type="text" name="" value="" placeholder="Set username">
+        <br>
+        <label for="">Password</label>
+        <input type="text" name="" value="" placeholder="Set password">
+
+        <label for="">Confirm</label>
+        <input type="text" name="" value="" placeholder="Confirm password">
+
+
+      </div>
+      <div class="fourthdiv">
+        <div class="imagesetting">
+                <input type="file" accept="image/*" name="a_image" id="file" onchange="loadFile(event)" style="display: none;">
+                <img class="imagepreview" id="output" width="200" /><br/>
+                <label for="file" style="cursor: pointer;">Upload Image</label>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+        <button type="submit" name="" id="submitbtn">Create Account</button><br/><br/>
+        <button type="" name="" id="clearbtn">Clear Fields</button>
+      </div>
+
+
+
+    </div>
+    <button type="button" name="logoutbtn" id="logoutbtn">Go back</button>
+  </body>
+</html>

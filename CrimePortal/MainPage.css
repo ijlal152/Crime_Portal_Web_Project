@@ -1,0 +1,164 @@
+body{
+    margin: 0 auto;
+    background-image: url("Images/mainwindowsbg.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#topheader{
+    background-color: black;
+    justify-content: center;
+    border: 5px solid green;
+    width: 100%;
+    height: auto;
+
+}
+#topheader h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: double;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    padding: 13px;
+    margin: 0 auto;
+}
+#firstdiv{
+    width: 98%;
+    height: 270px;
+    float: left;
+    padding: 5px;
+    align-items: center;
+    align-self: center;
+}
+
+#firstdiv #first{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    margin-left: 5%;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#firstheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+#firstdiv #second{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#secondheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+#firstdiv #third{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#thirdheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#seconddiv{
+    width: 98%;
+    height: 270px;
+    float: left;
+    margin-top: 1%;
+    padding: 5px;
+}
+
+
+#seconddiv #fourth{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    margin-left: 5%;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#fourthheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+}
+#seconddiv #fifth{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#fifthheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+}
+#seconddiv #sixth{
+    border: 3px solid white;
+    width: 28%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+    background-image: url("Images/wp2165188.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#sixthheader{
+    height: 38px;
+    width: 100%;
+    background-color: red;
+}
+

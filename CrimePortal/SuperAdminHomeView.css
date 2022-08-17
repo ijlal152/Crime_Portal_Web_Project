@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('Images/superadminwallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HeaderDiv {
+    border: 3px solid #000000;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background: #283747;
+    color: white;
+    border-color: greenyellow;
+    border-style: groove;
+    border-radius: 11px;
+}
+.HeaderDiv h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.maindiv{
+    text-align:center;
+    height:370px;
+    width:80%;
+    display:flex;
+    padding:9px;
+    justify-content:center;
+    margin:auto;
+}
+    .maindiv > div {
+        margin-left: 10px;
+        background-color: #283747; 
+        height:340px;
+        opacity:0.9;
+        width: 30%;
+        border: 3px solid yellow;
+        border-radius: 15px;
+    }
+        .maindiv > div h3 {
+            padding: 10px;
+            font-style: oblique;
+            font-weight: bolder;
+            background-color: white;
+            color: darkblue;
+            margin: auto;
+            border-radius: 13px;
+        }
+        
+        .maindiv > div button {
+            padding: 10px;
+            background-color: white;
+            color: red;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 170px;
+        }
+        
+
+
+
+#logoutbtn button {
+    color: black;
+    background-color: #DAF7A6;
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+
+
+
+#firstdiv p{
+    color: white;
+    font-size:16px;
+    font-weight:bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#seconddiv p{
+    color: white;
+    font-size:16px;
+    font-weight:bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#thirddiv p{
+    color: white;
+    font-size:16px;
+    font-weight:bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
